@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    background: #c5d2e6;
+}
+#cent{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+#bot{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+
+}
+#bot:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 
+    0 0 40px #2196f3,
+    0 0 80px #2196f3;
+    transition-delay: 0.1s;
+}
+/*nav{
+    width: 100%;
+    background: #00316b;
+}
+ul{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+ul li:hover{
+    background: #e91e63
+}
+ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}*/
+.nave{
+    width: 100%;
+    background: #00316b;
+}
+.nav_links{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+.nav_links li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+.nav_links li:hover{
+    background: #e91e63;
+
+    box-shadow: 0 0 10px #e91e63, 
+    0 0 40px #e91e63,
+    0 0 80px #e91e63;
+    transition-delay: 0.1s;
+}
+.nav_links li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#der{
+    float: right;
+}
+/* */
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+footer{
+    color: #ffffff;
+    background-color: #00316b;
+    text-align: center;
+    padding: 10px;
+  }
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 25px;
+}
+#inicio{
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 0px;
+}
+.parallax{
+    background: url('python.jpg') no-repeat center;
+    background-size: cover;
+    /*La imagen no se mueve*/
+    background-attachment: fixed;
+    height: 475px;
+}
+#logo{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+#logo li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
